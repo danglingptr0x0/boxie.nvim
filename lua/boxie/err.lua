@@ -1,0 +1,20 @@
+local boxie_err = {
+    LDG_TRUTH_FALSE = 0,
+    LDG_TRUTH_TRUE = 1,
+    LDG_ERR_AOK = 0,
+    LDG_ERR_FUNC_ARG_NULL = 4,
+    LDG_ERR_FUNC_ARG_INVALID = 5,
+    LDG_ERR_ALLOC_NULL = 6,
+    LDG_ERR_OVERFLOW = 9,
+    LDG_ERR_EMPTY = 10,
+    LDG_ERR_INVALID = 12,
+    LDG_ERR_NOT_FOUND = 14,
+    LDG_ERR_EXISTS = 15,
+    LDG_ERR_IO_RD = 201,
+    LDG_ERR_IO_WR = 202,
+    LDG_ERR_IO_FMT = 203,
+    LDG_ERR_IO_OPEN = 204,
+    LDG_ERR_IO_CLOSE = 205,
+}
+
+return boxie_err
